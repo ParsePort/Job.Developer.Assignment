@@ -1,8 +1,25 @@
 # Job.Deveveloper.Assignment
-Assignment for evaluating developers during a hiring process.  
+Candidate assignment for ParsePort developer job interviews.  
 
-The assignment is located in the ```Assignment``` folder, and only that should be sent to a developer candiate. The candiate must implement the methd ```FindCombinations<T>(...)```, so that all the tests passes.  
+The solution contains the following extension method, that must be implemented, in order to satisfy the tests in the solutuon.  
+There are several possible solutions, but of course the fastest and most optimal implementation is prefered. Also Use your best code quality.  
 
-The ```Solution``` folder contains the solution to the assignment, and naturally that should not be sent to the developer candidate, but may be usd to compare with the candidates solution.  
+```csharp
+/// <summary>
+/// Returns all combinations of <paramref name="matches"/> in <paramref name="sequence"/>.
+/// Example:
+/// - sequence: { 0, 1, 1 }
+/// - matches: { 0, 1 }
+/// - combinations: { 0, 1 }, { 0, 2 }
+/// </summary>
+/// <param name="sequence">The sequence to find matches.</param>
+/// <param name="matches">The matches to find.</param>
+/// <returns>The collection of match results, that contains the positions of a match.</returns>
+/// <exception cref="ArgumentNullException"></exception>
+public static IEnumerable<IEnumerable<int>> FindCombinations<T>(this IList<T> sequence, IList<T> matches)
+{
+    throw new NotImplementedException();
+}
+```
 
 ***
