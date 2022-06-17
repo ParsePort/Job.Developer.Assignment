@@ -1,6 +1,6 @@
 ﻿using Xunit;
 
-namespace Assignment
+namespace Job.Developer.Assignment
 {
     public class ListExtensionsTests
     {
