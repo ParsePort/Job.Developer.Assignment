@@ -1,8 +1,7 @@
 # Job.Deveveloper.Assignment
 Candidate assignment for ParsePort developer job interviews.  
 
-The solution contains the following extension method, that must be implemented, in order to satisfy the tests in the solutuon.  
-There are several possible solutions, but of course the fastest and most optimal implementation is prefered. Also Use your best code quality.  
+The solution contains the following extension method, that must be implemented, in order to satisfy the tests in the solutuon. There are several possible solutions, but of course the fastest and most optimal implementation is prefered. Also Use your best code quality.  
 
 ```csharp
 /// <summary>
